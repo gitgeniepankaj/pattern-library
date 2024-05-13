@@ -1,0 +1,32 @@
+{
+  "name": "pattern-library",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of design and code patterns used for web development. It offers a variety of patterns, from basic geometric shapes to complex symbolic designs, which can be utilized in various web development projects.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitgeniepankaj/pattern-library.git"
+  },
+  "keywords": [
+    "web design",
+    "patterns",
+    "code library",
+    "geometric",
+    "symbolic"
+  ],
+  "author": "Pankaj Dadure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitgeniepankaj/pattern-library/issues"
+  },
+  "homepage": "https://github.com/gitgeniepankaj/pattern-library#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
