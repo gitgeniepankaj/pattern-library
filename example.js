@@ -5,7 +5,7 @@ const { Butterfly, Triangle, Square, Pyramid, Diamond, Circle, Fish, Ganesh, Hea
 function displayPattern(title, patternInstance) {
     try {
         const pattern = patternInstance.draw();
-        console.log(`### ${title}:\n\n\`\`\`\n${pattern}\n\`\`\`\n\n`);
+        console.log(`${title}:\n${pattern}\n`);
     } catch (error) {
         console.error(`Error displaying ${title}: ${error}`);
     }
